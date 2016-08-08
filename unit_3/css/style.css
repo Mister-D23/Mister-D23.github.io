@@ -1,4 +1,9 @@
-body {
+* {
+	padding:0;
+	margin: 0;
+}
+
+	body {
 	background: url('../images/psari.jpg') no-repeat center center fixed;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
@@ -29,8 +34,8 @@ h1 {
 	border-radius: 8px;
 	display: inline-block;
 	position: relative;
-	right: 20px;
-	top: 20%;
+	right: 100 	px;
+	top: 30px;
 	color: #fff;
 	text-align: right;
 	padding: 10px 20px;
@@ -39,7 +44,10 @@ h1 {
 }
 
 #spacing {
-	width: 55%;
+	width: 30px;
+	height: 500px;
+	display: inline-block;
+
 }
 
 div > a {
@@ -56,12 +64,30 @@ div > ul {
 	padding: 15px 30px;
 	margin: 0 0 0 100px;
 	display: inline-block;
-	top: 75%;
+	bottom: 25%;
 }
 
-.contact {
+#love {
+	display: inline-block;
+	width: 250px;
+	height: 150px;
+	margin: 0 0 0 5px;
+	bottom: 25%;
+	background-color: rgba(255, 255, 255, .3);
+	border: 2px solid #993D6A;
+	position: relative;
+	float: right;
+}
+
+#love img {
+	width: 100%;
+	height: auto;
+}
+
+#contact {
 	-webkit-border-radius: 4px;
     -moz-border-radius: 4px;
+    width: 100px;
     border-radius: 4px;
     border: solid 1px #20538D;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
@@ -72,5 +98,5 @@ div > ul {
     color: #FFF;
     padding: 8px 12px;
     text-decoration: none;
-    cursor:help;
+    margin: 10px 0 0 100px;
 }
