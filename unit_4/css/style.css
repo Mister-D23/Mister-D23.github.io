@@ -58,10 +58,29 @@ div > ul {
 	top: 20px;
 }
 
+span {
+	font-size: 1.8em;
+	text-decoration: underline;
+}
+
 /*div > li {
 	font-family: 'Anton', cursive;
 	font-size: 0.7em;
 }*/
+
+.list {
+	font-family: 'Lobster', cursive;
+	font-size: 0.7em;
+	background-color: rgba(236, 197, 255, .7);
+	/*width: 100%;
+	/*height: 150px;*/
+	position: relative;
+	border: 1px solid rgb(255,146,21);
+	padding: 15px 25px;
+	margin: 0 0 20px 85px;
+	display: inline-block;
+	top: 20px;
+}
 
 .main {
 	background-color: rgba(137, 204, 172, 0.7);
@@ -81,34 +100,47 @@ div > ul {
 	float: right;
 }
 
-.list {
-	font-family: 'Lobster', cursive;
+.menu_item {
+    float: left;
+}
+
+.menu_item a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu_item a:hover {
+    background-color: #111;
+}
+
+#contact {
+	font-family: Lucida Sans, sans-serif;
 	font-size: 0.7em;
-	background-color: rgba(236, 197, 255, .7);
-	/*width: 100%;
-	/*height: 150px;*/
-	position: relative;
-	border: 1px solid rgb(255,146,210);
-	padding: 15px 25px;
-	margin: 0 0 20px 85px;
-	display: inline-block;
-	top: 20px;
-
-}
-
-#slogan {
-	font-family: 'Futura', sans-serif;
-}
-
-#spacing {
-	width: 30px;
-	height: 300px;
-	display: inline-block;
-
+	-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    /*width: 70px;*/
+    background: #89CCAC;
+    color: #FFF;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px 0 0 83px;
+    display: inline-block;
+    bottom: 5px;
+    clear: left;
 }
 
 #love {
-	display: inline-block;
+	display: inline;
 	width: 250px;
 	height: 166px;
 	margin: 0 40px 0 5px;
@@ -124,22 +156,34 @@ div > ul {
 	height: auto;
 }
 
-#contact {
-	font-family: Lucida Sans, sans-serif;
-	-webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    width: 100px;
-    border-radius: 4px;
-    border: solid 1px #20538D;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-    background: #89CCAC;
-    color: #FFF;
-    padding: 12px;
-    text-align: center;
-    text-decoration: none;
-    margin: 30px 0 0 120px;
-    bottom: 25px;
+#menu_box {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#serv_list {
+	font-family: 'Lobster', cursive;
+	font-size: 0.7em;
+	background-color: rgba(236, 197, 255, .7);
+	/*width: 100%;*/
+	/*height: 150px;*/
+	position: relative;
+	border: 1px solid rgb(255,146,21);
+	padding: 15px 25px;
+	margin: 0 0 5px 85px;
+	display: inline-block;
+	clear: right;
+}
+
+#slogan {
+	font-family: 'Futura', sans-serif;
+}
+
+#spacing {
+	width: 30px;
+	height: 300px;
+	display: inline-block;
 }
