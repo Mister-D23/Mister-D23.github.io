@@ -13,6 +13,7 @@
 	position: absolute;
 	min-width: 100%;
  	min-height: 100%;
+ 	background-color: orange;
 }
 
 h1 {
@@ -33,16 +34,19 @@ h3 {
 	font-family: 'Lobster', cursive;
 	font-size: 2em;
 	font-weight: lighter;
+	background-color: blue;
 }
 
 p {
 	font-family: 'Lobster', sans-serif;
 	font-size: 0.8em;
+	background-color: red;
 }
 
 div > a {
 	text-decoration: none;
 	color: #000;
+	background-color: yellow;
 }
 
 div > ul {
@@ -57,6 +61,7 @@ div > ul {
 	margin: 0 0 0 85px;
 	display: inline-block;
 	top: 20px;
+	background-color: purple;
 }
 
 span {
@@ -81,6 +86,7 @@ span {
 	margin: 0 0 20px 85px;
 	display: inline-block;
 	top: 20px;
+	background-color: gray;
 }
 
 .main {
@@ -121,6 +127,7 @@ span {
 #wrapper {
   background-color: #660033;
   width: 960px;
+  margin: auto;
 }
 
 #contact {
@@ -161,6 +168,7 @@ span {
 #love img {
 	width: 100%;
 	height: auto;
+	background-color: rgba(155, 155, 155, .3)
 }
 
 #menu_box {
@@ -190,10 +198,12 @@ span {
 #slogan {
 	font-family: 'Futura', sans-serif;
 	font-size: 1.3em;
+	background-color: violet;
 }
 
 #spacing {
 	width: 30px;
 	height: 250px;
 	display: inline-block;
+	background-color: green;
 }

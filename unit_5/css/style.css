@@ -121,6 +121,7 @@ span {
 #wrapper {
   background-color: #660033;
   width: 960px;
+  margin: auto;
 }
 
 #contact {
