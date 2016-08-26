@@ -13,7 +13,7 @@
 	position: absolute;
 	min-width: 100%;
  	min-height: 100%;
- 	background-color: orange;
+ 	/*background-color: orange;*/
 }
 
 h1 {
@@ -25,7 +25,6 @@ h1 {
 	width:85%;
 	padding:3px 15px;
 	margin-left: 7px;
-	margin-top: 20px;
 	display: inline-block;
 	clear: both;
 }
@@ -34,13 +33,13 @@ h3 {
 	font-family: 'Lobster', cursive;
 	font-size: 2em;
 	font-weight: lighter;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 
 p {
 	font-family: 'Lobster', sans-serif;
 	font-size: 0.8em;
-	background-color: red;
+	/*background-color: red;*/
 }
 
 div > a {
@@ -49,12 +48,12 @@ div > a {
 	/*background-color: yellow;*/
 }
 
-div > ul {
+/*div > ul {
 	font-family: 'Lobster', cursive;
 	font-size: 1em;
 	background-color: rgba(236, 197, 255, .7);
-	/*width: 100%;*/
-	/*height: 150px;*/
+	width: 100%;
+	height: 150px;
 	position: relative;
 	border: 1px solid #993D6A;
 	padding: 15px 25px;
@@ -62,6 +61,36 @@ div > ul {
 	display: inline-block;
 	top: 20px;
 	background-color: purple;
+}*/
+
+header, nav, aside, article, footer, div, section {
+    border: 1px black solid;
+    padding: 20px;
+}
+
+header {
+	background-color: #FFED74;
+}
+
+nav{
+	background-color: #E8C66A;
+}
+
+aside{
+	background-color: #FFC675;
+	float: left;
+}
+
+article{
+	background-color: #E89C6C;
+}
+
+footer {
+	background-color: #FF957E;
+}
+
+div, section {
+	background-color: #FFE2B8;
 }
 
 span {
@@ -69,17 +98,12 @@ span {
 	text-decoration: underline;
 }
 
-/*div > li {
-	font-family: 'Anton', cursive;
-	font-size: 0.7em;
-}*/
-
 .list {
 	font-family: 'Futura', cursive;
 	font-size: 0.7em;
 	background-color: rgba(236, 197, 255, .7);
-	/*width: 100%;
-	/*height: 150px;*/
+	width: 100%;
+	height: 150px;
 	position: relative;
 	border: 5px solid #ECEE4F;
 	padding: 15px 25px;
@@ -89,7 +113,7 @@ span {
 	background-color: gray;
 }
 
-.main {
+#text_main {
 	background-color: rgba(141, 242, 162, 0.7);
 	width: 450px;
 	border: solid;
@@ -97,12 +121,12 @@ span {
 	border-radius: 8px;
 	display: inline-block;
 	position: relative;
-	right: 20px;
-	top: 30px;
+	/*right: 20px;
+	top: 30px;*/
 	color: #fff;
 	text-align: right;
 	padding: 10px 20px;
-	margin: 0 40px;
+	/*margin: 0 40px;*/
 	clear: both;
 	float: right;
 }
@@ -125,7 +149,7 @@ span {
 }
 
 #wrapper {
-  background-color: #660033;
+  /*background-color: #660033;*/
   /*width: 960px;*/
   margin: auto;
 }
@@ -140,19 +164,19 @@ span {
 
 #love {
 	display: inline;
-	width: 185px;
-	height: 185px;
-	margin: 0 40px 0 5px;
-	bottom: 25%;
+	width: 85px;
+	height: 85px;
+	/*margin: 0 40px 0 5px;
+	bottom: 25%;*/
 	background-color: rgba(255, 255, 255, .3);
 	border: 2px solid rgb(236,236,79);
 	position: relative;
-	float: right;
+	/*float: right;*/
 }
 
 #love img {
-	width: 100%;
-	height: auto;
+	w/*idth: 100%;
+	height: auto;*/
 	background-color: rgba(155, 155, 155, .3)
 }
 
@@ -170,15 +194,15 @@ span {
 	text-align: center;
 	list-style-type: none;
 	background-color: rgba(246, 27, 200, .7);
-	/*width: 100%;*/
-	/*height: 150px;*/
-	/*position: relative;*/
+	width: 10em;
 	border: 2px solid #ECEE4F;
 	border-radius: 100px;
 	padding: 40px;
-	margin: -320px 0 5px 85px;
-	display: inline-block;
-	clear: right;
+	/*height: 150px;*/
+	/*position: relative;*/
+	/*margin: -320px 0 5px 85px;*/
+	/*display: inline-block;
+	clear: right;*/
 }
 
 #slogan {
@@ -188,8 +212,7 @@ span {
 }
 
 #spacing {
-	width: 1px;
+	/*width: 30px;*/
 	height: 500px;
 	display: inline-block;
-	background-color: green;
 }
