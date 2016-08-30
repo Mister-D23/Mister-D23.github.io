@@ -1,0 +1,158 @@
+* {
+	padding:0;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Megrim', sans-serif;
+	font-size: 4em;
+	font-weight: lighter;
+	background-color: #ECEE4F;
+	border-radius: 15px;
+	width:85%;
+	padding: 0 15px;
+}
+
+header, nav, aside, article, footer, div, section {
+	border: 1px black solid;
+	padding: 20px;
+}
+
+header {
+	background-color: #FFED74;
+}
+
+nav{
+	background-color: #E8C66A;
+}
+
+aside{
+	background-color: #FFC675;
+	/*float: right;*/
+}
+
+article{
+	background-color: #E89C6C;
+	margin: 5px 0;
+}
+
+footer {
+	background-color: #FF957E;
+}
+
+div, section {
+	background-color: #FFE2B8;
+}
+
+span {
+	font-size: 1.8em;
+	text-decoration: underline;
+}
+
+section {
+	min-width: 637px;
+}
+
+/*main {
+	float: left;
+	width: 60%;
+	min-width: 310px;
+}
+aside {
+	float: right;
+	width: 30%;
+	min-width: 196px;
+	max-width: 250px;
+}*/
+
+figure {
+	float: right;
+}
+
+img {
+	width: 235px;
+	border-radius: 100px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+/* makes top menu items list next to each other and change color on hover*/
+
+.menu_item {
+	float: left;
+	}
+
+.menu_item a {
+	font-family: 'Lobster', sans-serif;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.menu_item a:hover {
+    background-color: #111;
+}
+
+.menu_box {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+/*end menu item deco*/
+
+.social {
+	float: left;
+}
+
+.social li{
+	float: left;
+	text-decoration: none;
+	list-style: none;
+	padding: 5px;
+}
+
+#title_bar {
+	min-width: 950px;
+}
+
+#section_final{
+
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 62%;
+}
+
+#right {
+	background-color: #E55B88	;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 30%;
+}
