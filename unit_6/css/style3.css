@@ -72,6 +72,7 @@ figure {
 img {
 	width: 235px;
 	border-radius: 100px;
+	margin: 0 10% 0 0;
 }
 
 .clearfix:after {
